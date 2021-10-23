@@ -24,7 +24,7 @@
 
 Minimalistic portfolio with full-width grid, page transitions, support for additional MDX pages, and a focus on large images. Using the Gatsby Theme [`@lekoarts/gatsby-theme-emma`](https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-emma).
 
-[**Demo Website**](https://emma.lekoarts.de)
+[**Demo Website**](https://pratapoverseas.gatsbyjs.io/)
 
 Also be sure to check out other [Free & Open Source Gatsby Themes](https://themes.lekoarts.de) and my [Personal Website](https://www.lekoarts.de?utm_source=emma&utm_medium=Starter).
 
