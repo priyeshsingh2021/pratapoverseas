@@ -1,0 +1,82 @@
+{
+  "_from": "@lekoarts/gatsby-theme-emma@^3.0.0",
+  "_id": "@lekoarts/gatsby-theme-emma@3.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-YqYuUul8BBIR11+EfdVGjqan+Zg+iFintW23lvSHGhl5knw/i8Z3LehF21wJ4mOSopWMiiS6sNIBkLCU/ICmwQ==",
+  "_location": "/@lekoarts/gatsby-theme-emma",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@lekoarts/gatsby-theme-emma@^3.0.0",
+    "name": "@lekoarts/gatsby-theme-emma",
+    "escapedName": "@lekoarts%2fgatsby-theme-emma",
+    "scope": "@lekoarts",
+    "rawSpec": "^3.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^3.0.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@lekoarts/gatsby-theme-emma/-/gatsby-theme-emma-3.0.0.tgz",
+  "_shasum": "87961f8cf36dfeec0288719d173f526655c3284e",
+  "_spec": "@lekoarts/gatsby-theme-emma@^3.0.0",
+  "_where": "C:\\Users\\suraj\\workspace\\work\\pratapoverseas",
+  "author": {
+    "name": "LekoArts",
+    "email": "hello@lekoarts.de"
+  },
+  "bugs": {
+    "url": "https://github.com/LekoArts/gatsby-themes/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@lekoarts/gatsby-theme-emma-core": "^3.0.0",
+    "@mdx-js/mdx": "^1.6.22",
+    "@theme-ui/presets": "^0.11.1",
+    "gatsby-plugin-catch-links": "^4.0.0",
+    "gatsby-plugin-image": "^2.0.0",
+    "gatsby-plugin-react-helmet": "^5.0.0",
+    "gatsby-plugin-theme-ui": "^0.11.1",
+    "polished": "^4.1.3",
+    "react-helmet": "^6.1.0",
+    "react-spring": "^9.2.5",
+    "theme-ui": "^0.11.1"
+  },
+  "deprecated": false,
+  "description": "Minimalistic portfolio with full-width grid, page transitions, support for additional MDX pages, and a focus on large images",
+  "engines": {
+    "node": ">=14.15.0"
+  },
+  "homepage": "https://themes.lekoarts.de",
+  "keywords": [
+    "gatsby",
+    "gatsby-theme",
+    "gatsby-plugin",
+    "lekoarts"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@lekoarts/gatsby-theme-emma",
+  "peerDependencies": {
+    "gatsby": "^4.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LekoArts/gatsby-themes.git",
+    "directory": "themes/gatsby-theme-emma"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "develop": "gatsby develop",
+    "start": "gatsby develop"
+  },
+  "version": "3.0.0"
+}

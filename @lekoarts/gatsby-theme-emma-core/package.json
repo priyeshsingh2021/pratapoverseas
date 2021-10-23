@@ -1,0 +1,79 @@
+{
+  "_from": "@lekoarts/gatsby-theme-emma-core@^3.0.0",
+  "_id": "@lekoarts/gatsby-theme-emma-core@3.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-qzxcu7MmT76/Ls1NClbTFDGfL1ea08Nw5Ul9/IhTvUVCBPqXB/3z4fjaVyZuexei5LiNXR0BKK59/PspDarvKA==",
+  "_location": "/@lekoarts/gatsby-theme-emma-core",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@lekoarts/gatsby-theme-emma-core@^3.0.0",
+    "name": "@lekoarts/gatsby-theme-emma-core",
+    "escapedName": "@lekoarts%2fgatsby-theme-emma-core",
+    "scope": "@lekoarts",
+    "rawSpec": "^3.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^3.0.0"
+  },
+  "_requiredBy": [
+    "/@lekoarts/gatsby-theme-emma"
+  ],
+  "_resolved": "https://registry.npmjs.org/@lekoarts/gatsby-theme-emma-core/-/gatsby-theme-emma-core-3.0.0.tgz",
+  "_shasum": "d03a0f230e1853e3ab097b2e27104276f5db93e5",
+  "_spec": "@lekoarts/gatsby-theme-emma-core@^3.0.0",
+  "_where": "C:\\Users\\suraj\\workspace\\work\\pratapoverseas\\node_modules\\@lekoarts\\gatsby-theme-emma",
+  "author": {
+    "name": "LekoArts",
+    "email": "hello@lekoarts.de"
+  },
+  "bugs": {
+    "url": "https://github.com/LekoArts/gatsby-themes/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@mdx-js/mdx": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
+    "gatsby-plugin-mdx": "^3.0.0",
+    "gatsby-plugin-sharp": "^4.0.0",
+    "gatsby-remark-images": "^6.0.0",
+    "gatsby-source-filesystem": "^4.0.0",
+    "gatsby-transformer-sharp": "^4.0.0",
+    "lodash.kebabcase": "^4.1.1"
+  },
+  "deprecated": false,
+  "description": "Core Theme for @lekoarts/gatsby-theme-emma. This theme implements the Project and Page node interfaces and exports templates (+ queries) which you can shadow.",
+  "engines": {
+    "node": ">=14.15.0"
+  },
+  "homepage": "https://themes.lekoarts.de",
+  "keywords": [
+    "gatsby",
+    "gatsby-theme",
+    "gatsby-plugin",
+    "lekoarts"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@lekoarts/gatsby-theme-emma-core",
+  "peerDependencies": {
+    "gatsby": "^4.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LekoArts/gatsby-themes.git",
+    "directory": "themes/gatsby-theme-emma-core"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "develop": "gatsby develop",
+    "start": "gatsby develop"
+  },
+  "version": "3.0.0"
+}

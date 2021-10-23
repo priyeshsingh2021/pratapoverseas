@@ -4,23 +4,51 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    // You can overwrite values here that are used for the SEO component
-    // You can also add new values here to query them like usual
-    // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-emma-core/gatsby-config.js
-    siteTitleAlt: `Emma - Gatsby Starter Portfolio`,
+    siteTitle: `Pratap Overseas`,
+    siteLanguage: `en`,
+    siteHeadline: `Pratap Overseas`,
+    siteTitleAlt: `Pratap Overseas`,
   },
   plugins: [
     {
-      resolve: `@lekoarts/gatsby-theme-emma`,
+      resolve: `./@lekoarts/gatsby-theme-emma`,
       // See the theme's README for all available options
-      options: {},
+      // options: {},
+      options: {
+        name: `Pratap Overseas`,
+        location: `Bihar - 800023, India | Contact: +91-7763912309 `,
+        navigation: [
+          { name: `Brass Work`, slug: `/brass-work` },
+          { name: `Madhubani Painting`, slug: `/madhubani` },
+          { name: `Tikuli art`, slug: `/tikuli` },
+          { name: `Oil Paintings`, slug: `/oilpainting` },
+        ],
+        socialMedia: [
+          {
+            title: `Twitter`,
+            href: `https://twitter.com/OverseasPratap`
+          },
+          {
+            title: `Pinterest`,
+            href: `https://in.pinterest.com/pratapoverseas/`
+          },
+          {
+            title: `Linkedin`,
+            href: `https://www.linkedin.com/in/pratap-overseas-5a08501b4/`
+          },
+          {
+            title: `WhatsApp`,
+            href: `https://api.whatsapp.com/send?phone=917763912309&text=Hi`
+          },
+        ],
+      },
     },
     `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Emma - @lekoarts/gatsby-theme-emma`,
-        short_name: `Emma`,
+        name: `Pratap Overseas`,
+        short_name: `PratapOverseas`,
         description: `Minimalistic bright portfolio with full-width grid and large images`,
         start_url: `/`,
         background_color: `#fff`,
